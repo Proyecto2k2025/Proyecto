@@ -3,8 +3,6 @@ Un sistema multiplataforma que permita que pequeñas tiendas online con su propi
 
 **Autor:** Abdelmoghit Samini  
 
----
-
 ## Planteamiento del problema
 Las pequeñas tiendas online suelen llevar su inventario en hojas de cálculo o apuntes manuales. Esto produce:
 
@@ -12,16 +10,12 @@ Las pequeñas tiendas online suelen llevar su inventario en hojas de cálculo o 
 - Demoras en el manejo de pedidos.
 - Una mala experiencia para el cliente (como falta de comunicación o cancelaciones).
 
----
-
 ## Justificación
 Un sistema centralizado que integre las órdenes, el inventario y los clientes:
 
 - Disminuye las equivocaciones humanas.
 - Mejora la organización de la tienda.
 - Eleva la satisfacción del cliente.
-
----
 
 ## Objetivos
 
