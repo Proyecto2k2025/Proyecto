@@ -1,7 +1,7 @@
 # Proyecto: Gestor de E-Stock
 Un sistema multiplataforma que permita que pequeñas tiendas online con su propio stock manejen de manera simple el inventario, los pedidos y clientes.  
 
-**Autor:** [Abdelmoghit Samini ] (https://github.com/Samini04) 
+**Autor:** [Abdelmoghit Samini ](https://github.com/Samini04) 
 
 ## Planteamiento del problema
 Las pequeñas tiendas online suelen llevar su inventario en hojas de cálculo o apuntes manuales. Esto produce:
