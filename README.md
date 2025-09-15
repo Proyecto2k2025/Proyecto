@@ -24,3 +24,13 @@ Desarrollar una aplicación que funcione en diversas plataformas (móvil, web y 
 
 ### Objetivos específicos
 - Crear una base de datos relacional para la gestión de inventarios, órdenes y clientes.
+
+
+
+### Resumen bilingüe
+
+ES:
+Este proyecto propone el desarrollo de E-Stock Manager, una solución multiplataforma para pequeñas tiendas online con stock propio. El sistema centralizará la gestión de inventario, pedidos y clientes, reduciendo errores y mejorando la eficiencia. La solución se compone de un backend con API REST, un cliente web responsive y una aplicación móvil. La metodología combina diseño de base de datos, desarrollo de servicios y pruebas integradas.
+
+EN:
+This project proposes the development of E-Stock Manager, a cross-platform solution for small online stores with their own stock. The system will centralize the management of inventory, orders, and customers, reducing errors and improving efficiency. The solution consists of a backend with a REST API, a responsive web client, and a mobile application. The methodology combines database design, service development, and integrated testing.
