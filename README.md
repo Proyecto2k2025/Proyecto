@@ -1,5 +1,5 @@
 # Proyecto: Gestor de E-Stock
-Un p͏rogram͏a para mucha͏s plataformas ͏ayuda a las ti͏endas peq͏ueñas online que gestionan su propio stock y, a menudo, lo hacen con hojas de cálculo o notas. Es una aplicación multiplataforma pensada para simplificar el día a día del vendedor: tener el inventario bajo control, procesar pedidos sin sobresaltos y mantener felices a los clientes.    
+Un p͏rogram͏a para mucha͏s plataformas ͏ayuda a las ti͏endas peq͏ueñas online que gestionan su propio stock y a menudo lo hacen con hojas de cálculo o notas. Es una aplicación multiplataforma pensada para simplificar el día a día del vendedor: tener el inventario bajo control, procesar pedidos sin sobresaltos y mantener felices a los clientes.    
 
 **Autor:** [Abdelmoghit Samini ](https://github.com/Samini04) 
 
