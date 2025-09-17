@@ -6,7 +6,7 @@ Un p͏rogram͏a para mucha͏s plataformas ͏ayuda a las ti͏endas peq͏ueñas on
 ## Planteamiento del problema
 Muchas tiendas pequeñas gestionan su negocio de forma artesanal. Eso trae problemas concretos:
 
-- Productos publicados sin stock real (errores en inventario)
+- Productos publicados sin stock real 
 - Retrasos al procesar pedidos.
 - Mala experiencia para el cliente por falta de comunicación o información desactualizada.
 
