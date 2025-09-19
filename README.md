@@ -28,7 +28,23 @@ Desarrollar una aplicación multiplataforma (móvil, web y backend) que permita 
 ### Resumen bilingüe
 
 ES:
-Este proyecto propone el desarrollo de Gestor de E-Stock, una solución multiplataforma para pequeñas tiendas online con stock propio. El sistema centralizará la gestión de inventario, pedidos y clientes, reduciendo errores y mejorando la eficiencia. La solución incluye de un backend con API REST, un cliente web responsive y una aplicación móvil. La metodología combina diseño de base de datos, desarrollo de servicios y pruebas integradas.
+Quiero desarrollar Gestor de E-Stock, una herramienta multiplataforma pensada para tiendas online pequeñas y medianas que manejan su propio stock. La idea es tener todo en un solo sitio: inventario, pedidos y clientes, para evitar duplicidades, reducir errores y ganar tiempo en las tareas del día a día.
+
+La aplicación tendrá tres piezas claras. Primero, un backend con API REST que controle la lógica, los permisos y la integridad de los datos, para que todo lo demás se conecte de forma segura. Segundo, un cliente web responsive práctico y fácil de usar no cosas complicadas pensado para quienes gestionan el negocio desde el ordenador o la tablet. Y tercero, una app móvil para consultar datos clave y gestionar avisos cuando estés fuera de la tienda.
+
+Mi enfoque en el desarrollo será práctico: analizo lo que realmente necesita la tienda, diseño la base de datos para que sea clara y mantenible, desarrollo los servicios y voy integrando los módulos poco a poco. Haré pruebas unitarias y de integración, y validaré con casos reales para asegurarme de que funciona en situaciones reales, no solo en teoría.
+
+Prefiero aplicar buenas prácticas sencillas: código legible, comentarios útiles y patrones que faciliten añadir nuevas funciones más adelante. También documentaré lo básico para que cualquiera pueda entender el sistema sin perder tiempo.
+
+En definitiva, busco que Gestor de E-Stock sea una herramienta útil y sin complicaciones: que simplifique la gestión diaria, reduzca los fallos humanos y permita tomar decisiones rápidas. Nada de promesas vacías, solo una solución práctica que realmente ayude a mejorar la operativa de una tienda online.
 
 EN:
-This project proposes the development of E-Stock Manager, a cross-platform solution for small online stores with their own stock. The system will centralize the management of inventory, orders, and customers, reducing errors and improving efficiency. The solution consists of a backend with a REST API, a responsive web client, and a mobile application. The methodology combines database design, service development, and integrated testing.
+I want to develop Gestor de E-Stock, a cross-platform tool aimed at small and medium online stores that manage their own inventory. The idea is to have everything in one place inventory, orders and customers—to avoid duplication, cut down on errors and save time on everyday tasks.
+
+The app will have three clear parts. First, a backend with a REST API that handles business logic, permissions and data integrity so everything else can connect securely. Second, a practical, responsive web client that’s easy to use no complicated stuff designed for people managing the business from a computer or tablet. And third, a mobile app to check key information and handle alerts when you’re away from the store.
+
+My development approach will be hands-on: I’ll analyze what the store really needs, design a clear and maintainable database, build the services and integrate modules step by step. I’ll run unit and integration tests and validate with real use cases to make sure it works in real-world situations, not just on paper.
+
+I prefer simple best practices: readable code, useful comments and design patterns that make it easy to add features later. I’ll also document the essentials so anyone can understand the system without wasting time.
+
+In short, I want Gestor de E-Stock to be a useful, no-fuss tool: something that simplifies daily management, reduces human errors and enables quick decision-making. No empty promises—just a practical solution that really helps improve the day-to-day operation of an online store.
