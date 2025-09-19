@@ -41,12 +41,12 @@ En definitiva, busco que Gestor de E-Stock sea una herramienta útil y sin compl
 
 EN:
 
-I want to develop Gestor de E-Stock, a cross-platform tool aimed at small and medium online stores that manage their own inventory. The idea is to have everything in one place inventory, orders and customers—to avoid duplication, cut down on errors and save time on everyday tasks.
+I want to develop Gestor de E-Stock, a cross-platform tool aimed at small and medium online stores that manage their own inventory. The idea is to have everything in one place inventory, orders and customers to avoid duplication, cut down on errors and save time on everyday tasks.
 
 The app will have three clear parts. First, a backend with a REST API that handles business logic, permissions and data integrity so everything else can connect securely. Second, a practical, responsive web client that’s easy to use no complicated stuff designed for people managing the business from a computer or tablet. And third, a mobile app to check key information and handle alerts when you’re away from the store.
 
-My development approach will be hands-on: I’ll analyze what the store really needs, design a clear and maintainable database, build the services and integrate modules step by step. I’ll run unit and integration tests and validate with real use cases to make sure it works in real-world situations, not just on paper.
+My development approach will be hands on: I’ll analyze what the store really needs, design a clear and maintainable database, build the services and integrate modules step by step. I’ll run unit and integration tests and validate with real use cases to make sure it works in real world situations, not just on paper.
 
 I prefer simple best practices: readable code, useful comments and design patterns that make it easy to add features later. I’ll also document the essentials so anyone can understand the system without wasting time.
 
-In short, I want Gestor de E-Stock to be a useful, no-fuss tool: something that simplifies daily management, reduces human errors and enables quick decision-making. No empty promises—just a practical solution that really helps improve the day-to-day operation of an online store.
+In short, I want Gestor de E-Stock to be a useful, no-fuss tool: something that simplifies daily management, reduces human errors and enables quick decision-making. No empty promises just a practical solution that really helps improve the day to-day operation of an online store.
