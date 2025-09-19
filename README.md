@@ -28,6 +28,7 @@ Desarrollar una aplicación multiplataforma (móvil, web y backend) que permita 
 ### Resumen bilingüe
 
 ES:
+
 Quiero desarrollar Gestor de E-Stock, una herramienta multiplataforma pensada para tiendas online pequeñas y medianas que manejan su propio stock. La idea es tener todo en un solo sitio: inventario, pedidos y clientes, para evitar duplicidades, reducir errores y ganar tiempo en las tareas del día a día.
 
 La aplicación tendrá tres piezas claras. Primero, un backend con API REST que controle la lógica, los permisos y la integridad de los datos, para que todo lo demás se conecte de forma segura. Segundo, un cliente web responsive práctico y fácil de usar no cosas complicadas pensado para quienes gestionan el negocio desde el ordenador o la tablet. Y tercero, una app móvil para consultar datos clave y gestionar avisos cuando estés fuera de la tienda.
@@ -39,6 +40,7 @@ Prefiero aplicar buenas prácticas sencillas: código legible, comentarios útil
 En definitiva, busco que Gestor de E-Stock sea una herramienta útil y sin complicaciones: que simplifique la gestión diaria, reduzca los fallos humanos y permita tomar decisiones rápidas. Nada de promesas vacías, solo una solución práctica que realmente ayude a mejorar la operativa de una tienda online.
 
 EN:
+
 I want to develop Gestor de E-Stock, a cross-platform tool aimed at small and medium online stores that manage their own inventory. The idea is to have everything in one place inventory, orders and customers—to avoid duplication, cut down on errors and save time on everyday tasks.
 
 The app will have three clear parts. First, a backend with a REST API that handles business logic, permissions and data integrity so everything else can connect securely. Second, a practical, responsive web client that’s easy to use no complicated stuff designed for people managing the business from a computer or tablet. And third, a mobile app to check key information and handle alerts when you’re away from the store.
