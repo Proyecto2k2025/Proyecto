@@ -49,4 +49,4 @@ My development approach will be hands on: I’ll analyze what the store really n
 
 I prefer simple best practices: readable code, useful comments and design patterns that make it easy to add features later. I’ll also document the essentials so anyone can understand the system without wasting time.
 
-In short, I want Gestor de E-Stock to be a useful, no-fuss tool: something that simplifies daily management, reduces human errors and enables quick decision-making. No empty promises just a practical solution that really helps improve the day to-day operation of an online store.
+In short, I want Gestor de E-Stock to be a useful, no-fuss tool: something that simplifies daily management, reduces human errors and enables quick decision making. No empty promises just a practical solution that really helps improve the day to-day operation of an online store.
