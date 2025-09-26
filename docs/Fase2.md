@@ -30,9 +30,9 @@
 
 ## 2. Estudio del Arte
 
-Actualmente existen plataformas como Shopify, WooCommerce, Odoo o Zoho Inventory. Todas son completas, pero también más complejas y costosas de lo que un pequeño comercio necesita.
+Existen plataformas como Shopify, WooCommerce o Zoho etc. Son muy completas, pero también complejas y caras.
 
-**Gestor de E-Stock**  no busca competir con ellas, sino ser una alternativa más simple y ligera, que cubra lo esencial: inventario, pedidos y clientes, sin necesidad de configuraciones avanzadas ni costes altos.
+**Gestor de E-Stock** busca ser ligero y práctico, con lo mínimo necesario para que un pequeño comercio pueda controlar su stock, pedidos y clientes sin complicaciones.
 
 ## 3. Justificación de viabilidad
 
