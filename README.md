@@ -1,4 +1,4 @@
-# 📦 Proyecto: Gestor de E-Stock  
+# Proyecto: Gestor de E-Stock  
 
 **Autor:** [Abdelmoghit Samini](https://github.com/Samini04)  
 
