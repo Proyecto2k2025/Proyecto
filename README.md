@@ -7,6 +7,6 @@
 ## 📑 Índice de fases
 
 1. [Fase 1: Planteamiento, Justificación y Objetivos](docs/Fase1.md)  
-2. [Fase 2:requisitos funcionales y no funcionales, Estudio del Arte, Justificación de viabilidad ](docs/Fase2.md)   
+2. [Fase 2: Requisitos funcionales y no funcionales, Estudio del Arte, Justificación de viabilidad ](docs/Fase2.md)   
  
 
