@@ -7,6 +7,6 @@
 ## 📑 Índice de fases
 
 1. [Fase 1: Planteamiento, Justificación y Objetivos](docs/Fase1.md)  
-2. [Fase 2: (pendiente añadir)](docs/Fase2.md)   
+2. [Fase 2:](docs/Fase2.md)   
  
 
