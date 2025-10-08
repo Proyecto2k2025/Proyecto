@@ -13,6 +13,7 @@ Las tiendas de ropa pequeñas gestionan su negocio de forma artesanal, enfrentá
 **- Inventario desactualizado:** Dificultad para sincronizar stock entre múltiples plataformas de venta
 
 **- Temporadas y colecciones:** No tener claro qué productos de cada temporada tienen mejor rotación
+
 **- Devoluciones por tallas:** Falta de control sobre cambios y devoluciones frecuentes en moda
 
 ## Justificación
