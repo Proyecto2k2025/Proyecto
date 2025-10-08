@@ -1,52 +1,48 @@
 # Proyecto: Gestor de E-Stock
-Un p͏rogram͏a para mucha͏s plataformas ͏ayuda a las ti͏endas peq͏ueñas online que gestionan su propio stock y a menudo lo hacen con hojas de cálculo o notas. Es una aplicación multiplataforma pensada para simplificar el día a día del vendedor: tener el inventario bajo control, procesar pedidos sin sobresaltos y mantener felices a los clientes.    
+Un sistema multiplataforma diseñado específicamente para tiendas de ropa y moda online que gestionan su propio stock y a menudo lo hacen con hojas de cálculo o notas. Es una aplicación pensada para simplificar el día a día del vendedor de moda: controlar inventario por tallas y colores, procesar pedidos sin errores de variantes y mantener actualizado el catálogo.    
 
 **Autor:** [Abdelmoghit Samini ](https://github.com/Samini04) 
 
 ## Planteamiento del problema
-Muchas tiendas pequeñas gestionan su negocio de forma artesanal. Eso trae problemas concretos:
+Las tiendas de ropa pequeñas gestionan su negocio de forma artesanal, enfrentándose a problemas específicos del sector moda:
 
-- Productos publicados sin stock real 
-- Retrasos al procesar pedidos.
-- Mala experiencia para el cliente por falta de comunicación o información desactualizada.
+- Gestión compleja de variantes: Controlar stock por tallas (XS/S/M/L/XL) y colores de forma manual
+- Errores en pedidos: Confusiones al enviar tallas incorrectas o productos agotados
+- Inventario desactualizado: Dificultad para sincronizar stock entre múltiples plataformas de venta
+- Temporadas y colecciones: No tener claro qué productos de cada temporada tienen mejor rotación
+- Devoluciones por tallas: Falta de control sobre cambios y devoluciones frecuentes en moda
 
 ## Justificación
-Un sistema que integre pedidos, inventario y clientes reduce la carga manual y los errores, mejora la organización interna y, en consecuencia, aumenta la confianza y satisfacción del cliente. Menos trabajo repetitivo, menos errores y procesos más rápidos: eso permite que el comerciante se concentre en hacer crecer su negocio.
+Un sistema especializado en moda que integre la gestión de variantes (tallas/colores), temporadas y categorías de ropa reduce significativamente los errores humanos en pedidos, optimiza el control de inventario y mejora la experiencia del cliente final. Permite al comerciante enfocarse en curar su catálogo y estrategia comercial en lugar de tareas repetitivas de gestión.
 
 ## Objetivos
 
 ### Objetivo general
-Desarrollar una aplicación multiplataforma (móvil, web y backend) que permita a las pequeñas tiendas online administrar de forma centralizada sus productos, pedidos y clientes.
+Desarrollar una aplicación multiplataforma (backend, web y móvil) especializada para tiendas de ropa online que permita administrar de forma centralizada productos con variantes, pedidos con tallas específicas y clientes con historial de compras.
 
 ### Objetivos específicos
-- Diseñar y crear una base de datos relacional para gestionar inventario, pedidos y clientes.
-- Implementar un backend con API REST que centralice la lógica de negocio y facilite integraciones.
-- Desarrollar un cliente web responsive para la gestión desde ordenador y móvil.
-- Crear una app móvil para consultas rápidas y notificaciones en tiempo real.
-- Incorporar pruebas integradas y procesos de despliegue para asegurar calidad y continuidad del servicio.
+- Diseñar base de datos relacional optimizada para moda: productos, variantes (tallas/colores), categorías, temporadas
+- Implementar backend con API REST con lógica específica para gestión de variantes y stock multidimensional
+- Desarrollar cliente web responsive con interfaz visual para gestión intuitiva de tallas y colores
+- Crear app móvil para consultas rápidas de stock y notificaciones de productos críticos
+- Sistema de categorización por tipo de prenda, temporada y colección
+- Módulo de reportes específicos para retail de moda (rotación por talla, productos más devueltos, etc.)
 
 ### Resumen bilingüe
 
 ES:
 
-Quiero desarrollar Gestor de E-Stock, una herramienta multiplataforma pensada para tiendas online pequeñas y medianas que manejan su propio stock. La idea es tener todo en un solo sitio: inventario, pedidos y clientes, para evitar duplicidades, reducir errores y ganar tiempo en las tareas del día a día.
+Quiero desarrollar Gestor de E-Stock para Tiendas de Ropa, una herramienta multiplataforma especializada en el sector moda, pensada para pequeñas y medianas tiendas de ropa online. La solución centraliza la gestión compleja de variantes (tallas y colores), temporadas y categorías específicas de moda.
 
-La aplicación tendrá tres piezas claras. Primero, un backend con API REST que controle la lógica, los permisos y la integridad de los datos, para que todo lo demás se conecte de forma segura. Segundo, un cliente web responsive práctico y fácil de usar no cosas complicadas pensado para quienes gestionan el negocio desde el ordenador o la tablet. Y tercero, una app móvil para consultar datos clave y gestionar avisos cuando estés fuera de la tienda.
+La aplicación tendrá tres componentes principales. Un backend con API REST que maneje la lógica específica de moda: gestión de stock multidimensional, variantes y temporadas. Un cliente web responsive con interfaces visuales para gestionar fácilmente tablas de tallas/colores. Y una app móvil para consultar stock específico y recibir alertas cuando tallas populares estén por agotarse.
 
-Mi enfoque en el desarrollo será práctico: analizo lo que realmente necesita la tienda, diseño la base de datos para que sea clara y mantenible, desarrollo los servicios y voy integrando los módulos poco a poco. Haré pruebas unitarias y de integración, y validaré con casos reales para asegurarme de que funciona en situaciones reales, no solo en teoría.
-
-Prefiero aplicar buenas prácticas sencillas: código legible, comentarios útiles y patrones que faciliten añadir nuevas funciones más adelante. También documentaré lo básico para que cualquiera pueda entender el sistema sin perder tiempo.
-
-En definitiva, busco que Gestor de E-Stock sea una herramienta útil y sin complicaciones: que simplifique la gestión diaria, reduzca los fallos humanos y permita tomar decisiones rápidas. Nada de promesas vacías, solo una solución práctica que realmente ayude a mejorar la operativa de una tienda online.
+Mi desarrollo se centrará en resolver problemas reales de tiendas de ropa: diseñaré una base de datos optimizada para variantes, implementaré servicios específicos para gestión de tallas y desarrollaré interfaces intuitivas para el día a día del retail de moda.
 
 EN:
 
-I want to develop E-Stock Manager, a cross platform tool aimed at small and medium online stores that manage their own inventory. The idea is to have everything in one place inventory, orders and customers to avoid duplication, cut down on errors and save time on everyday tasks.
+I want to develop E-Stock Manager for Fashion Stores, a cross-platform tool specialized in the fashion sector, designed for small and medium online clothing stores. The solution centralizes the complex management of variants (sizes and colors), seasons, and specific fashion categories.
 
-The app will have three clear parts. First, a backend with a REST API that handles business logic, permissions and data integrity so everything else can connect securely. Second, a practical, responsive web client that’s easy to use no complicated stuff designed for people managing the business from a computer or tablet. And third, a mobile app to check key information and handle alerts when you’re away from the store.
+The app will have three main components. A backend with REST API that handles fashion-specific logic: multidimensional stock management, variants, and seasons. A responsive web client with visual interfaces to easily manage size/color tables. And a mobile app to check specific stock and receive alerts when popular sizes are running low.
 
-My development approach will be hands on: I’ll analyze what the store really needs, design a clear and maintainable database, build the services and integrate modules step by step. I’ll run unit and integration tests and validate with real use cases to make sure it works in real world situations, not just on paper.
+My development will focus on solving real problems of clothing stores: I'll design a variant-optimized database, implement specific services for size management, and develop intuitive interfaces for the day-to-day of fashion retail.
 
-I prefer simple best practices: readable code, useful comments and design patterns that make it easy to add features later. I’ll also document the essentials so anyone can understand the system without wasting time.
-
-In short, I want Gestor de E-Stock to be a useful, no-fuss tool: something that simplifies daily management, reduces human errors and enables quick decision making. No empty promises just a practical solution that really helps improve the day to-day operation of an online store.
