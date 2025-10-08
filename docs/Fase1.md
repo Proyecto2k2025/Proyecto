@@ -6,7 +6,7 @@ Un sistema multiplataforma diseñado específicamente para tiendas de ropa y mod
 ## Planteamiento del problema
 Las tiendas de ropa pequeñas gestionan su negocio de forma artesanal, enfrentándose a problemas específicos del sector moda:
 
-- Gestión compleja de variantes: Controlar stock por tallas (XS/S/M/L/XL) y colores de forma manual
+- ** Gestión compleja de variantes: ** Controlar stock por tallas (XS/S/M/L/XL) y colores de forma manual
 - Errores en pedidos: Confusiones al enviar tallas incorrectas o productos agotados
 - Inventario desactualizado: Dificultad para sincronizar stock entre múltiples plataformas de venta
 - Temporadas y colecciones: No tener claro qué productos de cada temporada tienen mejor rotación
