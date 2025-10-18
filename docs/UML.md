@@ -1,4 +1,3 @@
-#  
 
 ##  Los Tres casos de usos principales del Sistema:
 
