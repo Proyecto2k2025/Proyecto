@@ -1,7 +1,7 @@
 
 ##  Los Tres casos de usos principales del Sistema:
 
-A continuación se resumen los tres casos de uso clave del sistema, fundamentales para su funcionamiento y experiencia del usuario.
+A continuación los tres casos de uso clave del sistema, fundamentales para su funcionamiento y experiencia del usuario.
 
 ### 1. Procesar Pedido 
 
