@@ -4,8 +4,6 @@
 
 A continuación se resumen los tres casos de uso clave del sistema, fundamentales para su funcionamiento y experiencia del usuario.
 
----
-
 ### 1. Procesar Pedido 
 
 Este es el núcleo del sistema: permite vender productos, registrar pedidos y controlar el stock.
@@ -18,7 +16,6 @@ Este es el núcleo del sistema: permite vender productos, registrar pedidos y co
 **Entidades involucradas:** `Clientes`, `Pedidos`, `Pedido_items`, `Variantes`  
 **Operaciones:** `INSERT`, `SELECT`, `UPDATE`
 
----
 
 ### 2.  Gestión de Productos y Variantes
 
@@ -32,7 +29,7 @@ Permite mantener el catálogo actualizado y bien organizado.
 **Entidades:** `Productos`, `Variantes`  
 **Operaciones:** `INSERT`, `UPDATE`, `DELETE`, `SELECT`
 
----
+
 
 ### 3. Consulta de Historial de Pedidos del Cliente
 
@@ -45,7 +42,6 @@ Ofrece a los usuarios acceso a sus compras anteriores y facilita la atención al
 **Entidades:** `Clientes`, `Pedidos`, `Pedido_items`, `Variantes`, `Productos`  
 **Operaciones:** `SELECT`, `JOIN`
 
----
 
 Estas funcionalidades aseguran una experiencia fluida, eficiente y confiable tanto para los usuarios como para los administradores del sistema.
 
