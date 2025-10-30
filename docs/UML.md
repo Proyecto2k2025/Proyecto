@@ -12,9 +12,6 @@ Este es el núcleo del sistema: permite vender productos, registrar pedidos y co
 - Registro del pedido y sus ítems.
 - Actualización del stock de cada variante (talla, color, etc.).
 
-**Entidades involucradas:** `Clientes`, `Pedidos`, `Pedido_items`, `Variantes`  
-**Operaciones:** `INSERT`, `SELECT`, `UPDATE`
-
 
 ### 2.  Gestión de Productos y Variantes
 
@@ -24,9 +21,6 @@ Permite mantener el catálogo actualizado y bien organizado.
 - Crear, editar o eliminar productos.
 - Añadir variantes (por talla, color, etc.).
 - Identificar variantes con bajo stock.
-
-**Entidades:** `Productos`, `Variantes`  
-**Operaciones:** `INSERT`, `UPDATE`, `DELETE`, `SELECT`
 
 
 
@@ -38,9 +32,7 @@ Ofrece a los usuarios acceso a sus compras anteriores y facilita la atención al
 - Listado de pedidos por cliente.
 - Detalle de cada pedido: productos, cantidades, tallas, etc.
 
-**Entidades:** `Clientes`, `Pedidos`, `Pedido_items`, `Variantes`, `Productos`  
-**Operaciones:** `SELECT`, `JOIN`
-
+![alt text](image-5.png)
 
 Estas funcionalidades aseguran una experiencia fluida, eficiente y confiable tanto para los usuarios como para los administradores del sistema.
 
