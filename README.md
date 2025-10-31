@@ -11,6 +11,6 @@
 3. [Fase 3: Modelo entidad-relación ](docs/ERR.md)  
 4. [Fase 3: Árbol de navegación y inventario de contenidos](docs/arbol-jerarquia.md)
 5. [Fase 3: Casos de usos y diagrama de clase  ](docs/UML.md)
-6. [Fase 3: Diseño Interfaz Figma  ](docs/Diseño Interfaz.md) 
+6. [Fase 3: Diseño Interfaz Figma  ](docs/Diseño_Interfaz.md) 
  
 
