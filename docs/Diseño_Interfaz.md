@@ -19,7 +19,7 @@
 ![alt text](image-22.png)
 ![alt text](image-21.png)
 
-## Justificación del diseño – E-Stock
+## Justificación del diseño 
 
 ### Colores
 El diseño de E-Stock busca transmitir profesionalismo, claridad y confianza. La interfaz combina tonos azules y blancos para generar una sensación de orden y seguridad, garantizando además un buen contraste visual que cumple con los estándares WCAG de accesibilidad.
