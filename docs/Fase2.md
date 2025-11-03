@@ -40,7 +40,7 @@ Existen plataformas como Shopify, WooCommerce o Zoho etc. Son muy completas, per
 
 Para no sobrecargar el desarrollo, se usarán tecnologías sencillas y accesibles:
 
-Backend y API: Java(Spring Boot).
+Backend y API: Java.
 
 Base de datos: MySQL.
 
