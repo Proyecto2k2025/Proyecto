@@ -18,3 +18,15 @@
 ![alt text](image-20.png)
 ![alt text](image-22.png)
 ![alt text](image-21.png)
+
+## Justificación del diseño – E-Stock
+
+El diseño de E-Stock busca transmitir profesionalismo, claridad y confianza. La interfaz combina tonos azules y blancos para generar una sensación de orden y seguridad, garantizando además un buen contraste visual que cumple con los estándares WCAG de accesibilidad.
+
+La tipografía Roboto fue elegida por su legibilidad en pantallas digitales y su estilo moderno. La jerarquía tipográfica facilita la lectura y ayuda al usuario a identificar rápidamente la información más importante.
+
+Los iconos lineales refuerzan la coherencia visual y la comprensión de las acciones, aplicando principios de diseño inclusivo al acompañarse de etiquetas cuando es necesario.
+
+La estructura limpia y equilibrada, con una barra lateral fija y amplios espacios en blanco, mejora la navegación y reduce la carga visual. Los botones y formularios son claros y accesibles, alineados con las heurísticas de Nielsen, especialmente las de visibilidad, consistencia y control del usuario.
+
+En conjunto, el diseño prioriza la usabilidad, accesibilidad y experiencia del usuario, ofreciendo una interfaz simple, funcional y confiable.
