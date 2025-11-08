@@ -24,11 +24,9 @@
 
 ## Justificación del diseño 
 
-# Diseño de Gestor de E-Stock
-
 El diseño de **Gestor de E-Stock** se orienta a la **eficiencia**, **profesionalismo** y **accesibilidad**, con el objetivo de ofrecer una experiencia superior a la de las herramientas manuales.
 
-## Design System
+## Diseño del Sistema
 
 | **Elemento** | **Especificación** | **Justificación Profesional** |
 |---------------|--------------------|--------------------------------|
