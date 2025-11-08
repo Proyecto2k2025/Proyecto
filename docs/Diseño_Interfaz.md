@@ -28,8 +28,6 @@
 
 El diseño de **Gestor de E-Stock** se orienta a la **eficiencia**, **profesionalismo** y **accesibilidad**, con el objetivo de ofrecer una experiencia superior a la de las herramientas manuales.
 
----
-
 ## Design System
 
 | **Elemento** | **Especificación** | **Justificación Profesional** |
@@ -39,7 +37,6 @@ El diseño de **Gestor de E-Stock** se orienta a la **eficiencia**, **profesiona
 | **Tipografía** | Roboto | Máxima legibilidad en todos los dispositivos (web y móvil), clave para la rápida asimilación de datos. |
 | **Composición** | Navegación Lateral/Inferior | Estándar de la industria para herramientas de gestión. Garantiza navegación rápida y acceso constante a las métricas clave.  |
 
----
 
 ## Justificación de Usabilidad
 
@@ -53,7 +50,6 @@ El diseño se adhiere rigurosamente a los **principios de usabilidad** para mini
 
 - **Feedback:** Uso de notificaciones y estados visuales (ej. botones de éxito tras guardar) para mantener al usuario siempre informado sobre el estado del sistema. 
 
----
 
 ## Accesibilidad y Diseño Inclusivo
 
