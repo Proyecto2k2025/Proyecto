@@ -42,11 +42,11 @@ El diseño se adhiere rigurosamente a los **principios de usabilidad** para mini
 
 - **Diseño Minimalista:** Se priorizan los datos críticos (como las tarjetas de métricas en Reportes), eliminando el ruido visual para facilitar la toma de decisiones rápida. 
 
-- **Consistencia y Estándares:** El uso uniforme de elementos de navegación y colores de estado (ej. rojo para alerta de stock bajo) reduce la carga cognitiva. 
+- **Consistencia y Estándares:** El uso uniforme de elementos de navegación y colores de estado reduce la carga cognitiva. 
 
 - **Reconocimiento:** La navegación persistente (barra lateral/menú inferior) con iconos claros permite al usuario operar sin necesidad de recordar rutas, mejorando la eficiencia. 
 
-- **Feedback:** Uso de notificaciones y estados visuales (ej. botones de éxito tras guardar) para mantener al usuario siempre informado sobre el estado del sistema. 
+- **Feedback:** Uso de notificaciones y estados visuales  para mantener al usuario siempre informado sobre el estado del sistema. 
 
 
 ## Accesibilidad y Diseño Inclusivo
