@@ -28,6 +28,7 @@
 El diseño de **Gestor de E-Stock** se orienta a la **eficiencia**, **profesionalismo** y **accesibilidad**, con el objetivo de ofrecer una experiencia superior a la de las herramientas manuales.
 
 ## Diseño del Sistema
+![alt text](image-24.png)
 
 | **Elemento** | **Especificación** | **Justificación Profesional** |
 |---------------|--------------------|--------------------------------|
