@@ -21,7 +21,7 @@
 ![alt text](image-22.png)
 
 ## Contraste de colores
-
+![alt text](image-23.png)
 
 ## Justificación del diseño 
 
