@@ -1,0 +1,35 @@
+package org.example.proyectooo.Controller;
+
+
+import org.example.proyectooo.Service.ReporteService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Map;
+
+@RestController
+@RequestMapping("/api/v1/reportes")
+@CrossOrigin(origins = "*")
+public class ReporteController {
+
+    private final ReporteService reporteService;
+
+    @Autowired
+    public ReporteController(ReporteService reporteService) {
+        this.reporteService = reporteService;
+    }
+
+    // GET: Muestra la gráfica de Ventas Anuales
+    @GetMapping("/ventas/anual")
+    public ResponseEntity<List<Map<String, Object>>> getAnnualSalesData() {
+        return ResponseEntity.ok(reporteService.getAnnualSalesData());
+    }
+
+    // POST: Genera reportes personalizados
+    @PostMapping("/custom")
+    public ResponseEntity<List<Map<String, Object>>> generateCustomReport(@RequestBody Map<String, Object> filters) {
+        return ResponseEntity.ok(reporteService.generateCustomReport(filters));
+    }
+}
