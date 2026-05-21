@@ -1,0 +1,432 @@
+/* =========================================
+   1. VARIABLES Y CONFIGURACIÓN BASE
+   ========================================= */
+   :root {
+    /* Paleta de Colores E-Stock */
+    --primary-blue: #2980b9;      /* Azul Sidebar */
+    --primary-dark: #1f618d;      /* Azul más oscuro para hover */
+    --bg-body: #f4f6f9;           /* Gris muy claro de fondo */
+    --text-main: #333333;         /* Texto principal */
+    --text-light: #777777;        /* Texto secundario */
+    --white: #ffffff;
+    --success: #27ae60;           /* Verde precios */
+    --danger: #c0392b;            /* Rojo gastos/precios */
+    
+    /* Bordes y Sombras */
+    --radius-card: 12px;          /* Redondeo de tarjetas */
+    --radius-btn: 30px;           /* Redondeo de botones (Pill shape) */
+    --shadow-sm: 0 2px 5px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+    --border-light: #e0e0e0;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', 'Roboto', Helvetica, Arial, sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    font-size: 16px;
+    overflow: hidden; /* El scroll lo maneja el contenedor principal */
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* =========================================
+     2. LAYOUT PRINCIPAL (Dashboard)
+     ========================================= */
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* --- Sidebar (Barra Lateral) --- */
+  .sidebar {
+    width: 260px;
+    background-color: var(--primary-blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    flex-shrink: 0;
+  }
+  
+  .logo-section {
+    padding: 0 30px 50px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    letter-spacing: 0.5px;
+  }
+  
+  .sidebar nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .sidebar nav a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Para separar el texto de la flecha */
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s, padding-left 0.3s;
+    opacity: 0.9;
+  }
+  
+  .sidebar nav a:hover,
+  .sidebar nav a.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    opacity: 1;
+    border-left: 4px solid var(--white);
+    padding-left: 26px; /* Ajuste visual por el borde */
+  }
+  
+  /* --- Área Principal --- */
+  .main-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Header Superior */
+  .top-header {
+    height: 80px;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 1px solid var(--border-light);
+    flex-shrink: 0;
+  }
+  
+  .search-container {
+    background: #f1f3f4;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .search-container:focus-within {
+    box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.3);
+    background: var(--white);
+  }
+  
+  .search-container input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 0.95rem;
+    color: var(--text-main);
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 500;
+    color: var(--text-main);
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--text-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  /* Contenido Scrollable */
+  .content-area {
+    padding: 40px;
+    overflow-y: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* =========================================
+     3. COMPONENTES UI (Cards, Botones, Tablas)
+     ========================================= */
+  
+  /* Tarjetas (Cards) */
+  .card {
+    background: var(--white);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-sm);
+    padding: 40px;
+    width: 100%;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  /* Headers dentro de páginas (Gris claro) */
+  .page-header-card {
+    background: #e5e8e8;
+    padding: 30px;
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .page-header-title, .page-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Botones de Acción (Pill Shape) */
+  .floating-actions {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .btn-action, .btn {
+    padding: 12px 30px;
+    border-radius: var(--radius-btn);
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .btn-action {
+    background: #f8f9fa; /* Fondo blanco/grisáceo por defecto */
+    color: var(--text-main);
+    border: 1px solid #ddd;
+  }
+  
+  .btn-action:hover {
+    background: #e9ecef;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  /* Botón Negro (Agregar/Confirmar) */
+  .btn-primary-black {
+    background: #000;
+    color: var(--white);
+  }
+  .btn-primary-black:hover {
+    background: #333;
+  }
+  
+  /* Tablas */
+  .table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table-container th {
+    text-align: left;
+    padding: 15px;
+    border-right: 2px solid var(--border-light);
+    font-weight: 700;
+    color: var(--text-main);
+    font-size: 0.95rem;
+  }
+  
+  .table-container th:last-child {
+    border-right: none;
+  }
+  
+  .table-container td {
+    padding: 15px;
+    border-bottom: 1px solid var(--border-light);
+    vertical-align: middle;
+  }
+  
+  .text-green { color: var(--success); font-weight: 700; }
+  .text-red { color: var(--danger); font-weight: 700; }
+  
+  /* Listas de datos (Resumen / Facturación) */
+  .data-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 1rem;
+  }
+  
+  .data-row:last-of-type {
+    border-bottom: none;
+  }
+  
+  .data-row.header {
+    background: transparent;
+    border-bottom: 2px solid #000;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* =========================================
+     4. FORMULARIOS (Inputs y Estilos)
+     ========================================= */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: var(--text-main);
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordes ligeramente redondeados como en la foto */
+    background: var(--white);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.1);
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  /* Tag de variables (Reportes Personalizados) */
+  .variable-tag {
+    background: var(--white);
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  /* =========================================
+     5. LOGIN PAGE (Estilos Específicos)
+     ========================================= */
+  .login-layout {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .login-left {
+    width: 45%;
+    background-color: var(--primary-blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+  }
+  
+  .login-left h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .login-left h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .login-left p {
+    opacity: 0.9;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+  }
+  
+  /* Inputs transparentes del Login */
+  .login-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255, 0.6);
+    width: 100%;
+    padding: 12px 0;
+    color: var(--white);
+    font-size: 1rem;
+    margin-bottom: 25px;
+    outline: none;
+  }
+  
+  .login-input::placeholder {
+    color: rgba(255,255,255, 0.8);
+  }
+  
+  .login-input:focus {
+    border-bottom: 1px solid var(--white);
+  }
+  
+  .login-right {
+    width: 55%;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .login-right-content {
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .login-right img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 30px;
+  }
