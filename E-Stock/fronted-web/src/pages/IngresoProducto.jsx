@@ -9,8 +9,7 @@ export default function IngresoProducto() {
     nombre: "",
     descripcion: "",
     precio: "",
-    categoria: "Ropa", // Valor por defecto
-    imagen: ""
+    categoria: "Ropa" // Valor por defecto
   });
 
   const handleChange = (e) => {
@@ -80,15 +79,7 @@ export default function IngresoProducto() {
             </div>
           </div>
 
-          <div className="form-group">
-            <label>URL Imagen</label>
-            <input 
-              name="imagen" 
-              className="form-input" 
-              placeholder="https://..." 
-              onChange={handleChange} 
-            />
-          </div>
+
 
           <div className="form-actions">
             <button type="submit" className="btn btn-primary-black" style={{ width: '100%' }}>
