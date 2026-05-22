@@ -12,5 +12,5 @@
 4. [Fase 3: Árbol de navegación y inventario de contenidos](docs/arbol-jerarquia.md)
 5. [Fase 3: Casos de usos y diagrama de clase  ](docs/UML.md)
 6. [Fase 3: Diseño Interfaz Figma  ](docs/Diseño_Interfaz.md) 
-7. [Fase 4: Resultado Final y Capturas del Sistema](docs/Capturas_Finales.md) 
+7. [Fase 4: Resultado Final y Capturas del Sistema](docs/Proyecto_Final) 
 
